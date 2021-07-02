@@ -1,4 +1,7 @@
 # Discord Anime Presence
+![downloads](https://img.shields.io/github/downloads/nikkdusky/discord-anime-presence/total?color=pink&style=flat-square)
+![repo size](https://img.shields.io/github/repo-size/nikkdusky/discord-anime-presence?color=pink&style=flat-square)
+
 
 Discord presence with ecchi anime girls and "random anime button", enjoy.
 
