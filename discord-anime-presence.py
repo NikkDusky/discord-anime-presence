@@ -1,8 +1,8 @@
 from random import choice, randint, uniform
 from time import time, sleep
 
-from pypresence import Presence
-from requests import get
+from pypresence import Presence #Для работы необходим pypresence //pip install pypresence
+from requests import get #Для кнопки рандомного аниме библиотека requests //pip install requests
 
 RPC = Presence(860442029669875742)
 
@@ -48,7 +48,7 @@ def rpc_update():
     },
     {
         "label": "GitHub",
-        "url": "https://github.com/"
+        "url": "https://github.com/NikkDusky/discord-anime-presence"
     }
         ]
     
