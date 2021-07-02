@@ -11,6 +11,7 @@ pip install pypresence
 pip install requests
 ```
 ![pypresence](https://img.shields.io/pypi/v/pypresence?color=pink&label=pypresence&style=flat-square)
+![requests](https://img.shields.io/pypi/v/requests?color=pink&label=requests&style=flat-square)
 
 ## About
 
