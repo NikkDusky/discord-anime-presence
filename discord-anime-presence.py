@@ -74,4 +74,4 @@ while True:
     system("cls")
     print("Working...\n")
     rpc_update()
-    sleep(5)
+    sleep(10)
