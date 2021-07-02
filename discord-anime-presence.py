@@ -1,5 +1,6 @@
 from random import choice, randint, uniform
 from time import time, sleep
+from os import system
 
 from pypresence import Presence #Для работы необходим pypresence //pip install pypresence
 from requests import get #Для кнопки рандомного аниме библиотека requests //pip install requests
@@ -33,11 +34,18 @@ def string_generator():
 
 def anime_url_get():
     response = get('https://animego.org/anime/random')
+    title_get = response.text
+    print("Рандомное аниме: " + title_get[title_get.find('<title>') + 7 : title_get.find('</title>')])
     return response.url
 
-def start_time_generator():
+def time_generator():
     start_time = uniform((time() - 604525), (time()))
     return start_time
+
+def random_image_get():
+    random_image = randint(1, 104)
+    print(f"Текущая картинка под номером: {random_image}")
+    return random_image
 
 def rpc_update():
     
@@ -56,12 +64,14 @@ def rpc_update():
         state=f"{string_generator()}",
         details=f"{string_generator()}",
         buttons=btn,
-        large_image=str(randint(1, 104)),
+        large_image=str(random_image_get()),
         #small_image=str(randint(1, 104)),
-        start=start_time_generator()
+        start=time_generator()
         )
 
 rpc_connect()
 while True:
+    system("cls")
+    print("Working...\n")
     rpc_update()
     sleep(5)
