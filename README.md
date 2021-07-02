@@ -7,9 +7,10 @@ Discord presence with ecchi anime girls and "random anime button", enjoy.
 
 ```
 Python 3
-pip install pypresence ![pypresence](https://img.shields.io/pypi/v/pypresence?color=pink&label=pypresence&style=flat-square)
+pip install pypresence
 pip install requests
 ```
+![pypresence](https://img.shields.io/pypi/v/pypresence?color=pink&label=pypresence&style=flat-square)
 
 ## About
 
