@@ -4,7 +4,7 @@
 
 
 
-Discord presence with ecchi anime girls and "random anime button", enjoy.
+Discord presence with ecchi anime girls and "random anime" button, enjoy.
 
 
 ## Requirements
